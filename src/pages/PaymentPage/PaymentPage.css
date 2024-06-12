@@ -1,0 +1,17 @@
+.sidebar{
+    min-height: 100vh;
+    max-height: auto;
+    background-color:transparent;
+}
+.content{
+    min-height: auto;
+     background-color: rgb(255, 255, 255);
+}
+
+.zoom-image {
+  transition: transform 0.3s ease;
+}
+
+.zoom-image:hover {
+  transform: scale(1.2); 
+}
